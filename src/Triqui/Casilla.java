@@ -4,6 +4,9 @@ public class Casilla {
 	private int posicion;
 	private char simbolo;
 	
+	public void marcar(String simbolo){
+		throw new RuntimeException("NO es posible volver a marcar. Ya existe en esta casilla el simbolo" + getSimbolo());
+	}
 	
 	public int getPosicion() {
 		return posicion;
