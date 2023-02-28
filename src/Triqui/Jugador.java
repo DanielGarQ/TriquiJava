@@ -2,7 +2,7 @@ package Triqui;
 
 public class Jugador {
 	private String nombre;
-	private char simbolo;
+	private String simbolo;
 	
 	
 	public String getNombre() {
@@ -11,11 +11,11 @@ public class Jugador {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public char getSimbolo() {
+	public String getSimbolo() {
 		return simbolo;
 	}
-	public void setSimbolo(char simbolo) {
+	public void setSimbolo(String simbolo) {
 		this.simbolo = simbolo;
 	}
-
+	
 }
